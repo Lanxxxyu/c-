@@ -1,0 +1,9 @@
+try:
+    num=eval(input("请输入一个整数:"))
+    print((100/num))
+except:#如果try出错则会输出
+    print("输入错误")
+else:
+    print("你输入了正确的数据")
+finally:#最终都要输出
+    print("加油奥里给")

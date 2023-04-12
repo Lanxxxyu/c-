@@ -1,0 +1,16 @@
+import turtle as t
+def caodi(x,y,a,b):
+    t.pencolor("#98FB98")
+    t.begin_fill()
+    t.fillcolor("#98FB98")
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+    t.forward(a)
+    t.rt(90)
+    t.forward(b)
+    t.rt(90)
+    t.fd(a)
+    t.rt(90)
+    t.fd(b)
+    t.end_fill()
